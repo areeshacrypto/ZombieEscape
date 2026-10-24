@@ -1,26 +1,3 @@
-# Godot 4
+# Godot 4+ specific ignores
 .godot/
-*.translation
-export_presets.cfg
-.mono/
-data_*/
-
-# Builds
-builds/
-*.exe
-*.pck
-*.apk
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# VS Code
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json
-
-# Raw/large source files (keep out of Git)
-*.blend1
-*.psd
-*.wav.bak
+/android/
