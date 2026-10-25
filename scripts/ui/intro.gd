@@ -6,20 +6,20 @@ extends Control
 # Each entry: [start time in seconds, subtitle text]
 # An empty string clears the subtitle.
 const LINES := [
-	[0.0, "Willow Creek was a quiet town."],
+	[1.0, "Willow Creek was a quiet town."],
 	[4.0, "Mountain air, church bells, neighbors who waved from their porches."],
-	[9.0, "Nobody locked their doors."],
-	[12.0, ""],
-	[15.0, "Then the sickness came."],
-	[17.5, "First it was just a few people, feverish and confused."],
-	[22.0, "Within a day, the hospital was overrun."],
-	[27.0, "By nightfall, the sirens stopped, because there was no one left to answer them."],
-	[37.0, ""],
-	[40.0, "The ones who changed... they didn't stop."],
-	[44.0, "They didn't sleep. They hunted anything that still breathed."],
-	[50.0, "We ran with whatever we could carry."],
-	[55.0, "There's one road out, a path winding up through the mountains to the evacuation point."],
-	[62.0, "Everyone who stays behind is already lost."],
+	[12.0, "Nobody locked their doors."],
+	[14.0, ""],
+	[17.0, "Then the sickness came."],
+	[20.5, "First it was just a few people, feverish and confused."],
+	[25.0, "Within a day, the hospital was overrun."],
+	[30.0, "By nightfall, the sirens stopped, because there was no one left to answer them."],
+	[39.0, ""],
+	[39.0, "The ones who changed... they didn't stop."],
+	[43.0, "They didn't sleep. They hunted anything that still breathed."],
+	[49.0, "We ran with whatever we could carry."],
+	[52.0, "There's one road out, a path winding up through the mountains to the evacuation point."],
+	[63.0, "Everyone who stays behind is already lost."],
 	[67.0, "I'm not staying. I'm getting out of here."],
 ]
 
