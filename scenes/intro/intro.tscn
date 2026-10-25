@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cwtocakmro30j"]
+
+[ext_resource type="AudioStream" uid="uid://cyke6v0t2jmgm" path="res://assets/audio/narration/intro_mix.ogg" id="1_qeukb"]
+
+[node name="Intro" type="Control" unique_id=486546366]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="NarrationPlayer" type="AudioStreamPlayer" parent="." unique_id=261624596]
+stream = ExtResource("1_qeukb")
+autoplay = true
