@@ -1,13 +1,36 @@
 [gd_scene format=3 uid="uid://cwtocakmro30j"]
 
+[ext_resource type="Script" uid="uid://cqojy128sfntn" path="res://scripts/ui/intro.gd" id="1_iatiw"]
 [ext_resource type="AudioStream" uid="uid://cyke6v0t2jmgm" path="res://assets/audio/narration/intro_mix.ogg" id="1_qeukb"]
 
 [node name="Intro" type="Control" unique_id=486546366]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_iatiw")
+
+[node name="Background" type="ColorRect" parent="." unique_id=664721291]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
 
 [node name="NarrationPlayer" type="AudioStreamPlayer" parent="." unique_id=261624596]
 stream = ExtResource("1_qeukb")
 autoplay = true
+
+[node name="SubtitleLabel" type="Label" parent="." unique_id=1429541893]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_alignment = 1
+vertical_alignment = 2
