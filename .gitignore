@@ -4,3 +4,4 @@
 # Raw audio recordings
 assets/audio/narration/*_raw.wav
 *.aup3
+assets/video/raw/
